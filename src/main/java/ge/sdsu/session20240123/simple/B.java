@@ -1,4 +1,4 @@
-package ge.sdsu.session20240123.groupOne.simple;
+package ge.sdsu.session20240123.simple;
 
 public class B extends A {
 

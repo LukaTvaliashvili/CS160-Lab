@@ -1,4 +1,4 @@
-package ge.sdsu.session20240124.groupTwo;
+package ge.sdsu.session20240124;
 
 public class Animal extends Object {
 

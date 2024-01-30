@@ -1,9 +1,9 @@
 package ge.sdsu;
 
-import ge.sdsu.session20240124.groupTwo.Animal;
-import ge.sdsu.session20240124.groupTwo.Dog;
-import ge.sdsu.session20240124.groupTwo.Employee;
-import ge.sdsu.session20240124.groupTwo.Rabbit;
+import ge.sdsu.session20240124.Animal;
+import ge.sdsu.session20240124.Dog;
+import ge.sdsu.session20240124.Employee;
+import ge.sdsu.session20240124.Rabbit;
 
 public class Main {
     public static void main(String[] args) {
