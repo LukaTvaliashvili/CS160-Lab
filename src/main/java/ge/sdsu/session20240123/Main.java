@@ -1,4 +1,4 @@
-package ge.sdsu.session20240123.groupOne;
+package ge.sdsu.session20240123;
 
 public class Main {
 
