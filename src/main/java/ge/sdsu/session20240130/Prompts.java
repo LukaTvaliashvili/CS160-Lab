@@ -2,7 +2,6 @@ package ge.sdsu.session20240130;
 
 public class Prompts {
 
-
     /*
 
 You are tasked with designing a simple application to simulate a university's faculty structure. The faculty comprises
@@ -74,23 +73,22 @@ are built by combining simpler objects (e.g., Room, Kitchen, Bathroom).
 You are developing an examination room monitoring system that ensures students sitting side-by-side won't be able to cheat.
 Each examination room is represented by the ExamRoom class, and each student in the room is represented by the Student class.
 The ExamRoom class has the following properties:
-    - RoomId: Unique identifier for the examination room.
-    - Capacity: Maximum number of students the room can accommodate.
-    - Students: List of students currently in the room. (at least 5 students)
+    - roomId: Unique identifier for the examination room.
+    - capacity: Maximum number of students the room can accommodate.
+    - students: List of students currently in the room. (at least 5 students)
 The Student class has the following properties:
 - studentId: unique identifier for the student.
 - name: name of the student.
 - subject: the subject for which the student is taking the exam.
 
 To prevent cheating, implement the following methods:
-- AddStudent: A method in the ExamRoom class to add a student to the room. Ensure that the room does not exceed its capacity,
+- addStudent: A method in the ExamRoom class to add a student to the room. Ensure that the room does not exceed its capacity,
               and that the subject of the added student is different from the subjects of the students sitting directly
-              to their left and right.
-- CheckForCheating: A method in the ExamRoom class that checks for potential cheating by comparing the names of students
+              to their left. (Refer to checkForCheating method below)
+- checkForCheating: A method in the ExamRoom class that checks for potential cheating by comparing the names of students
                     sitting side-by-side and their exam subjects. If two students have similar names or have
                     the same exam subject, consider it a potential cheating situation.
-- DisplayRoom: A method in the ExamRoom class that displays the details of the examination room,
-            including the list of students.
+- displayRoom: A method in the ExamRoom class that displays the details of the examination room, including the list of students.
      */
 
 }
