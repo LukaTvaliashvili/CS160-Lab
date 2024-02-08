@@ -47,7 +47,7 @@ Bathroom Class:
 House Class:
     Develop a House class to represent a residential house.
         It should contain the following attributes:
-            - rooms (array of Room objects): Represents the rooms in the house.
+            - rooms (list of Room objects): Represents the rooms in the house.
             - kitchen (Kitchen object): Represents the kitchen in the house.
             - bathroom (Bathroom object): Represents the bathroom in the house.
     Implement a constructor to initialize the House object with rooms, kitchen, and bathroom.
