@@ -1,6 +1,59 @@
 package ge.sdsu.session20240213;
 
+import java.util.Arrays;
+
 public class Prompt {
+
+    public static void main(String[] args) {
+        int[] arr = {0, 1, 0, 3, 12};
+        System.out.println(Arrays.toString(rearrange2(arr)));
+        System.out.println(Arrays.toString(rearrange1(arr)));
+        int[] result = rearrange(arr);
+        System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(rearrange(new int[]{0})));
+
+    }
+
+    private static int[] rearrange(int[] arr) {
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] == 0 && arr[j] != 0) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
+    private static int[] rearrange1(int[] arr) {
+        int index = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                int temp = arr[i];
+                arr[i] = 0;
+                arr[index] = temp;
+                index++;
+            }
+        }
+        return arr;
+    }
+
+    // not in-place
+    private static int[] rearrange2(int[] arr) {
+        int[] result = new int[arr.length];
+        for (int i = 0, j = 0; i < arr.length; i++) {
+            if (arr[i] != 0){
+                result[j] = arr[i];
+                j++;
+            }
+        }
+        return result;
+    }
+
+
 
     /*
 
