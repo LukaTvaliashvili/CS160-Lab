@@ -1,0 +1,7 @@
+
+
+let's create a generic Storage class, that will be able to save list of items.
+Implement the methods to store, to check if the storage is empty, to retrieve all items, and to
+display the contents of the storage.
+In the main method create instances of the Storage with different types and observe the behavior.
+Create Storage with Integer and String generic types, as well as Notebook custom class.
