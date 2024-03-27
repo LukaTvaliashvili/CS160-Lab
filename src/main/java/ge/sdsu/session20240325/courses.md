@@ -5,13 +5,13 @@ You've been tasked with creating a system to manage a university's course offeri
 -   Each course should have attributes such as course code, title, department, instructor, and schedule.
 -   Include appropriate constructors and getter methods.
 
-**Create a `CourseCatalog` class**:
+**Create a `Catalog` class**:
 -   This class should manage a collection of courses using generics and lists.
 -   Include methods to add courses to the catalog, search for courses by department or course code, and display all courses in the catalog.
 -   Ensure that the catalog avoids adding duplicate courses.
 
 **In the `main` method**:    
--   Create an instance of the `CourseCatalog` class.
+-   Create an instance of the `Catalog` class.
 -   Add several courses to the catalog across different departments.
 -   Perform searches for courses by department and course code.
 -   Display all the courses available in the catalog.

@@ -5,7 +5,7 @@ public class Prompt {
     /*
     You are tasked with designing a simple inventory management system for a retail store.
     The system should allow the store to track products, manage inventory levels, and handle sales transactions.
-     Your solution should make use of object-oriented programming concepts including classes, interfaces, and exceptions.
+    Your solution should make use of object-oriented programming concepts including classes, interfaces, and exceptions.
 
     Define a class for a Product with attributes: product ID, name, price, and quantity in stock.
 
@@ -21,7 +21,8 @@ public class Prompt {
 
     This should include adding products to the inventory, removing products, updating stock levels,
     and handling any exceptions that may arise during these operations.
-     */
+
+    */
 
 
     /*
